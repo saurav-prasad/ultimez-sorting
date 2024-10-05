@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.inputShadow{
+  box-shadow: #8db7fda1 0px 0px 8px 3px;
+}
