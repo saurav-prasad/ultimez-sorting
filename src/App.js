@@ -42,7 +42,7 @@ function App() {
         {/* error message */}
         {error && <p className='text-base text-red-500'>The Task Value field contains only numbers.</p>}
 
-        <button type="submit" className="text-white bg-[#2e6ffc] hover:bg-blue-800 rounded-lg w-fit text-base px-3 py-2 transition-all mt-4">
+        <button type="submit" className="text-white bg-[#2e6ffc] hover:bg-blue-800 rounded-lg w-fit text-base px-3 py-2 transition-all mt-4 select-none">
           Submit
         </button>
 
@@ -50,7 +50,7 @@ function App() {
 
       {/* odd/even */}
       <section className='flex flex-col space-y-1'>
-        
+
         <h1 className='text-2xl font-semibold mt-7'>Output Result:</h1>
 
         {/* even */}
